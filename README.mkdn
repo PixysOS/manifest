@@ -1,0 +1,26 @@
+# PixysOS ROM #
+
+### Sync ###
+
+```bash
+
+# Initialize local repository
+repo init -u https://github.com/PixysOS/manifest -b oreo
+
+# Sync
+repo sync --force-sync -j8 --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune
+```
+
+### Build ###
+
+```bash
+
+# Set up environment
+$ . build/envsetup.sh
+
+# Choose a target
+$ lunch pixys_$device-userdebug
+
+# Build the code
+$ make bacon -jX
+```
