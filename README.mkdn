@@ -22,5 +22,5 @@ $ . build/envsetup.sh
 $ lunch pixys_$device-userdebug
 
 # Build the code
-$ make bacon -jX
+$ make pixys -jX
 ```
