@@ -33,5 +33,6 @@
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" revision="oreo" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" revision="oreo" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" groups="pdk-fs" remote="pixys" revision="oreo" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="pixys" revision="oreo" />
 
 </manifest>
