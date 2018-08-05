@@ -35,5 +35,5 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="pixys" revision="oreo" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" revision="oreo" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="pixys" revision="oreo" />
-
+  <project path="vendor/pixys/themes" name="vendor_pixys_themes" groups="pdk-fs" remote="pixys" revision="oreo" />
 </manifest>
