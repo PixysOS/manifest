@@ -38,5 +38,6 @@
   <project path="vendor/pixys/themes" name="vendor_pixys_themes" groups="pdk-fs" remote="pixys" revision="oreo" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="oreo"  />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="pixys" revision="oreo" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="apps_Messaging,pdk-fs" remote="pixys" revision="oreo" />
 
 </manifest>
