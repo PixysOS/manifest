@@ -3,7 +3,7 @@
 
   <remote name="pixys"
           fetch="https://github.com/PixysOS/"
-          revision="refs/heads/master" />
+          revision="oreo" />
 
   <remote name="GitHub"
           fetch="https://github.com/" />
