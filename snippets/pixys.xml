@@ -8,6 +8,10 @@
   <remote name="GitHub"
           fetch="https://github.com/" />
 
+  <remote name="pixys-devices"
+          fetch="https://github.com/PixysOS-Devices"
+          revision="oreo" />
+
   <project path="build/make" name="build" groups="pdk" remote="pixys" revision="oreo" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
