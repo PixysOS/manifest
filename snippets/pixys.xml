@@ -5,7 +5,7 @@
           fetch="https://github.com/PixysOS/"
           revision="oreo" />
 
-  <remote name="GitHub"
+  <remote name="github"
           fetch="https://github.com/" />
 
   <remote name="pixys-devices"
