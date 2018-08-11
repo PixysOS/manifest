@@ -4,7 +4,7 @@
   <remote name="LineageOS"
           fetch="https://github.com/LineageOS/"
           review="https://review.lineageos.org/"
-          revision="refs/heads/lineage-15.1" />
+          revision="refs/heads/lineage-16.0" />
 
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="LineageOS" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="LineageOS" />
