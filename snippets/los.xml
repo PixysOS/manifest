@@ -6,16 +6,21 @@
           review="https://review.lineageos.org/"
           revision="refs/heads/lineage-16.0" />
 
+  <remote name="LineageOS-oreo"
+          fetch="https://github.com/LineageOS/"
+          review="https://review.lineageos.org/"
+          revision="refs/heads/lineage-15.1" />
+
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="LineageOS" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="LineageOS" />
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="LineageOS" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="LineageOS" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="LineageOS-oreo" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
-  <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="LineageOS" />
+  <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="LineageOS-oreo" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="LineageOS" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="LineageOS" />
-  <project path="external/libtextclassifier" name="android_external_libtextclassifier" groups="pdk" remote="LineageOS" />
+  <project path="external/libtextclassifier" name="android_external_libtextclassifier" groups="pdk" remote="LineageOS-oreo" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="LineageOS" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="LineageOS" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="LineageOS" />
@@ -40,14 +45,14 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="LineageOS" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="LineageOS" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
-  <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="LineageOS" />
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="LineageOS" />
+  <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="LineageOS-oreo" />
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="LineageOS-oreo" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="LineageOS" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="LineageOS" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="LineageOS" />
-  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="LineageOS" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="LineageOS-oreo" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="LineageOS" />
-  <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="LineageOS" />
+  <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="LineageOS-oreo" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="LineageOS" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="LineageOS" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="LineageOS" />
@@ -55,15 +60,15 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="LineageOS" />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="LineageOS" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="LineageOS" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="LineageOS" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="LineageOS-oreo" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="LineageOS-oreo" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="LineageOS-oreo" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="LineageOS" />
-  <project path="external/brctl" name="android_external_brctl" remote="LineageOS" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="LineageOS" />
-  <project path="external/ebtables" name="android_external_ebtables" remote="LineageOS" />
-  <project path="external/json-c" name="android_external_json-c" remote="LineageOS" />
-  <project path="external/powertop" name="android_external_powertop" remote="LineageOS" />
+  <project path="external/brctl" name="android_external_brctl" remote="LineageOS-oreo" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="LineageOS-oreo" />
+  <project path="external/ebtables" name="android_external_ebtables" remote="LineageOS-oreo" />
+  <project path="external/json-c" name="android_external_json-c" remote="LineageOS-oreo" />
+  <project path="external/powertop" name="android_external_powertop" remote="LineageOS-oreo" />
   <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8084" remote="LineageOS" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8916" remote="LineageOS" />
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8952" remote="LineageOS" />
@@ -90,49 +95,49 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8994" remote="LineageOS" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8996" remote="LineageOS" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" remote="LineageOS" />
-  <project path="hardware/qcom/neuralnetworks/hvxservice" name="android_hardware_qcom_neuralnetworks_hvxservice" remote="LineageOS" >
+  <project path="hardware/qcom/neuralnetworks/hvxservice" name="android_hardware_qcom_neuralnetworks_hvxservice" remote="LineageOS-oreo" >
     <copyfile src="Android.bp" dest="hardware/qcom/Android.bp" />
   </project>
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="LineageOS" />
-  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="LineageOS" />
-  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="LineageOS" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="LineageOS-oreo" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="LineageOS-oreo" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="LineageOS-oreo" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.1-caf" remote="LineageOS" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" remote="LineageOS" />
-  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="LineageOS" />
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="LineageOS-oreo" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="LineageOS" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="LineageOS" />
-  <project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="LineageOS" >
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="LineageOS-oreo" >
     <linkfile src="prop_pickup.bp" dest="vendor/nxp/interfaces/Android.bp" />
   </project>
-  <project path="vendor/nxp/opensource/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="LineageOS" />
-  <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="LineageOS" />
-  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="LineageOS" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="LineageOS" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="LineageOS" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="LineageOS" >
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="LineageOS-oreo" />
+  <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="LineageOS-oreo" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="LineageOS-oreo" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="LineageOS-oreo" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="LineageOS-oreo" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="LineageOS-oreo" >
     <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
   </project>
-  <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="LineageOS" />
+  <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="LineageOS-oreo" />
 
   <!-- LineageOS additions -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="LineageOS" />
-  <project path="external/bash" name="android_external_bash" remote="LineageOS" />
-  <project path="external/exfat" name="android_external_exfat" remote="LineageOS" />
-  <project path="external/fuse" name="android_external_fuse" remote="LineageOS" />
-  <project path="external/htop" name="android_external_htop" remote="LineageOS" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="LineageOS" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="LineageOS" />
-  <project path="external/libtar" name="android_external_libtar" remote="LineageOS" />
-  <project path="external/nano" name="android_external_nano" remote="LineageOS" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="LineageOS" />
-  <project path="external/one-true-awk" name="android_external_one-true-awk" remote="LineageOS" />
-  <project path="external/openssh" name="android_external_openssh" remote="LineageOS" />
-  <project path="external/p7zip" name="android_external_p7zip" remote="LineageOS" />
-  <project path="external/pigz" name="android_external_pigz" remote="LineageOS" />
-  <project path="external/rsync" name="android_external_rsync" remote="LineageOS" />
-  <project path="external/unrar" name="android_external_unrar" remote="LineageOS" />
-  <project path="external/vim" name="android_external_vim" remote="LineageOS" />
-  <project path="external/zip" name="android_external_zip" remote="LineageOS" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="LineageOS-oreo" />
+  <project path="external/bash" name="android_external_bash" remote="LineageOS-oreo" />
+  <project path="external/exfat" name="android_external_exfat" remote="LineageOS-oreo" />
+  <project path="external/fuse" name="android_external_fuse" remote="LineageOS-oreo" />
+  <project path="external/htop" name="android_external_htop" remote="LineageOS-oreo" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="LineageOS-oreo" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="LineageOS-oreo" />
+  <project path="external/libtar" name="android_external_libtar" remote="LineageOS-oreo" />
+  <project path="external/nano" name="android_external_nano" remote="LineageOS-oreo" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="LineageOS-oreo" />
+  <project path="external/one-true-awk" name="android_external_one-true-awk" remote="LineageOS-oreo" />
+  <project path="external/openssh" name="android_external_openssh" remote="LineageOS-oreo" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="LineageOS-oreo" />
+  <project path="external/pigz" name="android_external_pigz" remote="LineageOS-oreo" />
+  <project path="external/rsync" name="android_external_rsync" remote="LineageOS-oreo" />
+  <project path="external/unrar" name="android_external_unrar" remote="LineageOS-oreo" />
+  <project path="external/vim" name="android_external_vim" remote="LineageOS-oreo" />
+  <project path="external/zip" name="android_external_zip" remote="LineageOS-oreo" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="LineageOS" >
     <copyfile src="Android.bp" dest="hardware/lineage/Android.bp" />
   </project>

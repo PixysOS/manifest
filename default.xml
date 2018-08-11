@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-9.0.0_r1"
-           remote="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/"
+           revision="refs/tags/android-9.0.0_r1" />
+
+  <default remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
