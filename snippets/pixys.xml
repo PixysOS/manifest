@@ -8,9 +8,9 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <!--remote name="pixys-devices"
+  <remote name="pixys-devices"
           fetch="https://github.com/PixysOS-Devices"
-          revision="pie" /-->
+          revision="oreo" />
 
   <project path="build/make" name="build" groups="pdk" remote="pixys" revision="pie" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -79,5 +79,6 @@
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="pixys" revision="pie" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixys" revision="pie" />
   <project path="frameworks/support" name="frameworks_support" remote="pixys" revision="pie" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
 
 </manifest>
