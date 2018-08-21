@@ -86,5 +86,6 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="pixys" revision="pie" />
   <project path="packages/services/Telephony" name="packages_services_Telephony"  groups="pdk" remote="pixys" revision="pie" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="pixys" revision="pie" />
+  <project path="vendor/pixys/themes" name="vendor_pixys_themes" remote="pixys" revision="pie" />
 
 </manifest>
