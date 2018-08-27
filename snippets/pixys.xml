@@ -96,4 +96,6 @@
     <linkfile src="ota_conf" dest="ota_conf" />
    </project>
 
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie"/>
+
 </manifest>
