@@ -92,6 +92,7 @@
   <project path="vendor/pixys/themes" name="vendor_pixys_themes" remote="pixys" revision="pie" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="pixys" revision="pie" />
 
+  <project path="packages/apps/PixysOTA" name="packages_apps_PixysOTA" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie"/>
   <project path="vendor/pixys/ota" name="OTA" groups="pdk,tradefed" remote="pixys-devices" revision="pie" >
     <linkfile src="ota_conf" dest="ota_conf" />
    </project>
