@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixys"
+          fetch="https://github.com/PixysOS/"
+          revision="pie"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="pixys-devices"
+          fetch="https://github.com/PixysOS-Devices"
+          revision="pie" />
+
+  <project path="build/make" name="build" groups="pdk" remote="pixys" revision="pie" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  
+ 
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="pixys" revision="pie" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
+  
+  <project path="art" name="art" groups="pdk" remote="pixys" revision="pie" />
+  <project path="bionic" name="bionic" groups="pdk" remote="pixys" revision="pie" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="pixys" revision="pie" />
+  <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="pixys" revision="pie" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="pixys" revision="pie" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="pixys" revision="pie" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="pixys" revision="pie" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="pixys" revision="pie" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixys" revision="pie" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" revision="pie" />
+  <project path="system/core" name="system_core" groups="pdk" remote="pixys" revision="pie" />
+  
+  <project path="vendor/pixys" name="vendor_pixys" remote="pixys" revision="pie" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" revision="pie-caf" remote="pixys" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="pixys" revision="pie" />
+  <project path="hardware/ril-caf" name="hardware_ril" remote="pixys" revision="pie-caf" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt"  groups="pdk" remote="pixys" revision="pie" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="pixys" revision="pie-caf" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="pixys" revision="pie" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixys" revision="pie" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixys" revision="pie" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixys" revision="pie" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pixys" revision="pie" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="pixys" revision="pie" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pixys" revision="pie" />
+  <project path="external/brctl" name="external_brctl" remote="pixys" revision="pie" />
+  <project path="external/ebtables" name="external_ebtables" remote="pixys" revision="pie" />
+  <project path="external/json-c" name="external_json-c" remote="pixys" revision="pie" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixys" revision="pie" />
+  <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" remote="pixys" revision="pie" />
+  <project path="hardware/qcom/vr" name="hardware_qcom_vr" remote="pixys" revision="pie" />
+  <project path="system/qcom" name="system_qcom" remote="pixys" revision="pie" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="pixys" revision="pie">
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  </project>
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="pixys" revision="pie" />
+  <project path="vendor/nxp/opensource/frameworks" name="vendor_nxp_opensource_frameworks" remote="pixys" revision="pie" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="pixys" revision="pie" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixys" revision="pie" />
+  <project path="vendor/qcom/opensource/rcs-service" name="vendor_qcom_opensource_rcs-service" remote="pixys" revision="pie" />
+  <project path="external/exfat" name="external_exfat" remote="pixys" revision="pie" />
+  <project path="external/fuse" name="external_fuse" remote="pixys" revision="pie" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="pixys" revision="pie" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixys" revision="pie" />
+  <project path="frameworks/support" name="frameworks_support" remote="pixys" revision="pie" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="pixys" revision="pie" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony"  groups="pdk" remote="pixys" revision="pie" />
+  <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="pixys" revision="pie" />
+  <project path="vendor/pixys/themes" name="vendor_pixys_themes" remote="pixys" revision="pie" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="pixys" revision="pie" />
+
+  <project path="packages/apps/PixysOTA" name="packages_apps_PixysOTA" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie"/>
+  <project path="vendor/pixys/ota" name="OTA" groups="pdk,tradefed" remote="pixys-devices" revision="pie" >
+    <linkfile src="ota_conf" dest="ota_conf" />
+   </project>
+
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie"/>
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="pixys" revision="pie" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" revision="pie" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="pixys" revision="pie" />
+  <project path="packages/apps/PixysSettings" name="packages_apps_PixysSettings" groups="pdk-fs" remote="pixys" revision="pie" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
+
+</manifest>
