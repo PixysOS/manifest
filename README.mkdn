@@ -1,0 +1,60 @@
+<p align="center">
+<img src="https://github.com/PixysOS/manifest/blob/pie/raw/pixys.png" >
+</p>
+
+# PixysOS #
+
+
+### 🅶🅴🆃🆃🅸🅽🅶 🆂🆃🅰🆁🆃🅴🅳 ###
+**To get started with manifest/PixysOS, you'll need to get familiar with** [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
+
+**To initialize your local repository using the PixysOS trees, use a command like this** :
+
+```bash
+repo init -u https://github.com/PixysOS/manifest -b pie
+```
+
+**Then to be sure to add device stuffs in local_manifest
+and then sync up** :
+
+```bash
+repo sync  --force-sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune -j$(nproc --all)
+```
+# 
+### 🅵🅸🅽🅰🅻🅻🆈 🆃🅾 🅱🆄🅸🅻🅳 ###
+
+```bash
+
+$ . build/envsetup.sh
+$ lunch pixys_$device-userdebug
+$ make pixys -jX (X = number of threads you want to use)
+```
+# 
+### 🆇🅳🅰 🆃🅴🅼🅿🅻🅰🆃🅴 ###
+
+**For releasing it on xda , use** [this template](https://github.com/PixysOS/Pixys_doc/blob/pie/xda_template.txt)
+# 
+### 🅲🅾🅽🆃🆁🅸🅱🆄🆃🅸🅽🅶 🆃🅾 🆁🅾🅼 / 🆂🆄🅱🅼🅸🆃🆃🅸🅽🅶 🅿🅰🆃🅲🅷🅴🆂 ###
+
+**We always welcome contribution/patches to our rom! Feel free to submit a patch.** 
+**To do this you need follow**  [this](https://raw.githubusercontent.com/PixysOS/Pixys_doc/pie/gerrit_config.txt)
+
+**To view the status of your or other patches , visit**  [PIXYS GERRIT CODE REVIEW](http://gerrit.pixysos.org)
+
+# 
+### 🅾🅵🅵🅸🅲🅸🅰🅻 🆃🅰🅶 ###
+
+**For Official tag , you need to push a patchset to gerrit** 
+
+**Refer** [this commit](http://gerrit.pixysos.org/106)
+
+**After pushing to gerrit contact**  [SubinsMani- Our team Leader](https://t.me/Subinsmani) **on telegram , for further instructions.** 
+
+# 
+### 🅾🆃🅷🅴🆁 🆁🅴🆂🅾🆄🆁🅲🅴🆂 ###
+
+**Our** [Telegram chat](https://t.me/pixysos_chat)
+
+**Our** [Telegram channel](https://t.me/PixysOS)
+
+**Our** [Google plus page](https://plus.google.com/communities/101030702790200261305)
