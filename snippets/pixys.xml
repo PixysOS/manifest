@@ -10,7 +10,7 @@
 
   <remote name="pixys-devices"
           fetch="https://github.com/PixysOS-Devices"
-          revision="oreo" />
+          revision="pie" />
 
   <project path="build/make" name="build" groups="pdk" remote="pixys" revision="pie" >
     <copyfile src="core/root.mk" dest="Makefile" />
