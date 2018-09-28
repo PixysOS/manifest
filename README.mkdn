@@ -1,26 +1,29 @@
-# PixysOS ROM #
+<p align="center">
+<img src="https://github.com/PixysOS/manifest/raw/pixys.png" width="320px" height="320px" >
+</p>
 
-### Sync ###
+# PixysOS #
+
+### Getting started ###
+To get started with manifest/PixysOS, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
+
+To initialize your local repository using the PixysOS trees, use a command like this:
 
 ```bash
-
-# Initialize local repository
 repo init -u https://github.com/PixysOS/manifest -b pie
-
-# Sync
-repo sync --force-sync -j8 --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune
 ```
 
-### Build ###
+Then to sync up:
+
+```bash
+repofastsync (Equivalent to repo sync --force-sync -j8 --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune)
+```
+
+### Finally to build ###
 
 ```bash
 
-# Set up environment
 $ . build/envsetup.sh
-
-# Choose a target
 $ lunch pixys_$device-userdebug
-
-# Build the code
-$ make pixys -jX
+$ make pixys -jX (X - number of threads you want to use)
 ```
