@@ -72,6 +72,7 @@
 
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="LineageOS" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-16.0-caf" remote="LineageOS" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="LineageOS" />
 
   <!-- LineageOS additions -->
   <project path="external/one-true-awk" name="android_external_one-true-awk" remote="LineageOS" />

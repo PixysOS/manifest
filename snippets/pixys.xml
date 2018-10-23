@@ -70,7 +70,6 @@
   <project path="vendor/nxp/opensource/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="pixys" revision="pie" />
   <project path="vendor/nxp/opensource/frameworks" name="vendor_nxp_opensource_frameworks" remote="pixys" revision="pie" />
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="pixys" revision="pie" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixys" revision="pie" />
   <project path="vendor/qcom/opensource/rcs-service" name="vendor_qcom_opensource_rcs-service" remote="pixys" revision="pie" />
   <project path="external/exfat" name="external_exfat" remote="pixys" revision="pie" />
   <project path="external/fuse" name="external_fuse" remote="pixys" revision="pie" />
@@ -98,5 +97,9 @@
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
+
+  <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" revision="pie" >
+    <copyfile src="Android.bp" dest="hardware/lineage/Android.bp" />
+  </project>
 
 </manifest>
