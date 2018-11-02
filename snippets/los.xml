@@ -34,7 +34,6 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="LineageOS" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="LineageOS" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="LineageOS" />
-  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="LineageOS" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="LineageOS" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="LineageOS" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="LineageOS" />
