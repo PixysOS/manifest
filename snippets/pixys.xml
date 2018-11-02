@@ -99,5 +99,8 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
 
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" revision="pie" />
+  <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" revision="pie" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixys" revision="pie" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="pixys" revision="pie" />
 
 </manifest>
