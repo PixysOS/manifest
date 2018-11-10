@@ -83,10 +83,7 @@
   <project path="vendor/pixys/themes" name="vendor_pixys_themes" remote="pixys" revision="pie" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="pixys" revision="pie" />
 
-  <project path="packages/apps/PixysOTA" name="packages_apps_PixysOTA" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie"/>
-  <project path="vendor/pixys/ota" name="OTA" groups="pdk,tradefed" remote="pixys-devices" revision="pie" >
-    <linkfile src="ota_conf" dest="ota_conf" />
-   </project>
+  <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie"/>
 
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie"/>
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="pixys" revision="pie" />
@@ -103,5 +100,6 @@
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixys" revision="pie" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="pixys" revision="pie" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="pdk" remote="pixys" revision="pie" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="LineageOS" remote="pixys" revision="pie" />
 
 </manifest>
