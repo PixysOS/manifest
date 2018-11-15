@@ -102,5 +102,6 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="pixys" revision="pie" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
   <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixys" revision="pie" />
+  <project path="hardware/pixys/telephony" name="hardware_pixys_telephony" remote="pixys" revision="pie" />
 
 </manifest>
