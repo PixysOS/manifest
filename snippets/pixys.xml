@@ -42,6 +42,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixys" revision="pie" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" revision="pie" />
   <project path="system/core" name="system_core" groups="pdk" remote="pixys" revision="pie" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" revision="pie" />
   
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" revision="pie" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="pixys" revision="pie" />
