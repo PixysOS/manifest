@@ -76,5 +76,9 @@
   <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixys" revision="pie" />
   <project path="hardware/pixys/telephony" name="hardware_pixys_telephony" remote="pixys" revision="pie" />
   <project path="packages/providers/WeatherProvider" name="packages_providers_WeatherProvider" remote="pixys" revision="pie" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixys" revision="pie" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixys" revision="pie" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixys" revision="pie" />
+  <project path="system/vold" name="system_vold" remote="pixys" revision="pie" />
 
 </manifest>
