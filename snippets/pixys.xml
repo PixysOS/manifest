@@ -80,5 +80,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixys" revision="pie" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixys" revision="pie" />
   <project path="system/vold" name="system_vold" remote="pixys" revision="pie" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio"  remote="pixys" revision="pie" />
 
 </manifest>
