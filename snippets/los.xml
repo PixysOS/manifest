@@ -90,7 +90,8 @@
   <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="LineageOS" />
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="LineageOS" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="LineageOS" />
-
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="LineageOS" />
+  
   <!-- LineageOS additions -->
   <project path="external/exfat" name="android_external_exfat" remote="LineageOS" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="LineageOS" />
