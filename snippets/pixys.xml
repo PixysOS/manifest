@@ -30,6 +30,7 @@
   </project>
   
   <project path="bionic" name="bionic" groups="pdk" remote="pixys" revision="pie" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="pixys" revision="pie" />
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="pixys" revision="pie" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="pixys" revision="pie" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
