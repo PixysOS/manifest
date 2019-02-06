@@ -28,8 +28,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  
+
+  <project path="art" name="art" groups="pdk,tradefed" remote="pixys" revision="pie" />
   <project path="bionic" name="bionic" groups="pdk" remote="pixys" revision="pie" />
+  <project path="development" name="development" groups="developers,pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="pixys" revision="pie" />
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="pixys" revision="pie" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="pixys" revision="pie" />
@@ -37,7 +39,11 @@
   <project path="frameworks/pixys" name="frameworks_pixys" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="pixys" revision="pie" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixys" revision="pie" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" revision="pie" />
   <project path="system/core" name="system_core" groups="pdk" remote="pixys" revision="pie" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="pixys" revision="pie" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="pixys" revision="pie" />
+  <project path="system/security" name="system_security" groups="pdk" remote="pixys" revision="pie" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" revision="pie" />
 
   <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="pixys" revision="pie" />
