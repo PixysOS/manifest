@@ -90,5 +90,6 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pixys" revision="pie" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio"  remote="pixys" revision="pie" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native"  remote="pixys" revision="pie" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk"  remote="pixys" revision="pie" />
 
 </manifest>
