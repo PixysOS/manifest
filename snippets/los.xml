@@ -35,7 +35,6 @@
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="LineageOS" />
 
   <!-- CodeAurora additions -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="LineageOS" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="LineageOS" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="LineageOS" />
   <project path="external/connectivity" name="android_external_connectivity" remote="LineageOS" />
