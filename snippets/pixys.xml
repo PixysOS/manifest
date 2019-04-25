@@ -51,9 +51,6 @@
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="pixys" revision="pie" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="pixys" revision="pie-caf" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixys" revision="pie" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixys" revision="pie" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
   <project path="external/brctl" name="external_brctl" remote="pixys" revision="pie" />
   <project path="external/ebtables" name="external_ebtables" remote="pixys" revision="pie" />
   <project path="vendor/qcom/opensource/rcs-service" name="vendor_qcom_opensource_rcs-service" remote="pixys" revision="pie" />
