@@ -4,7 +4,7 @@
   <remote name="pixys"
           fetch="https://github.com/PixysOS/"
           revision="pie"
-          review="gerrit.pixysos.org" />
+          review="gerrit.pixysos.com" />
 
   <remote name="github"
           fetch="https://github.com/" />
