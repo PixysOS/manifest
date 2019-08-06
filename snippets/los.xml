@@ -19,6 +19,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="LineageOS" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="LineageOS" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="LineageOS" />
+  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="LineageOS" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="LineageOS" />
