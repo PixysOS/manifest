@@ -99,7 +99,24 @@
     <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
   </project>
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="LineageOS" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" />  
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" />
+  
+  <project path="hardware/qcom/sdm710/display" name="android_hardware_qcom_sdm710_display" groups="qcom_sdm710" remote="LineageOS" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp" />
+  </project> 
+  <project path="hardware/qcom/sdm845/bt" name="LineageOS/android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="LineageOS" />
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" groups="qcom_sdm845" remote="LineageOS" />
+  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="LineageOS" />
+  <project path="hardware/qcom/sdm845/thermal" name="android_hardware_qcom_sdm845_thermal" groups="qcom_sdm845" remote="LineageOS" />
+  <project path="hardware/qcom/sdm845/vr" name="android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" remote="LineageOS" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="LineageOS" />
+
   <!-- LineageOS additions -->
   <project path="external/exfat" name="android_external_exfat" remote="LineageOS" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="LineageOS" />
