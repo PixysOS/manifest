@@ -101,12 +101,12 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="LineageOS" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" />
   
-  <project path="hardware/qcom/sdm710/display" name="android_hardware_qcom_sdm710_display" groups="qcom_sdm710" remote="LineageOS" >
+  <project path="hardware/qcom/sdm710/display" name="android_hardware_qcom_sdm710_display" groups="qcom_sdm710" remote="LineageOS" remote="LineageOS" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp" />
   </project> 
-  <project path="hardware/qcom/sdm845/bt" name="LineageOS/android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" >
+  <project path="hardware/qcom/sdm845/bt" name="android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" remote="LineageOS" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="LineageOS" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
   </project>
