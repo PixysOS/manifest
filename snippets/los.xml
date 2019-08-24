@@ -101,7 +101,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="LineageOS" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" />
   
-  <project path="hardware/qcom/sdm710/display" name="android_hardware_qcom_sdm710_display" groups="qcom_sdm710" remote="LineageOS" remote="LineageOS" >
+  <project path="hardware/qcom/sdm710/display" name="android_hardware_qcom_sdm710_display" groups="qcom_sdm710" remote="LineageOS" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp" />
   </project> 
