@@ -115,7 +115,6 @@
   <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="LineageOS" />
   <project path="hardware/qcom/sdm845/thermal" name="android_hardware_qcom_sdm845_thermal" groups="qcom_sdm845" remote="LineageOS" />
   <project path="hardware/qcom/sdm845/vr" name="android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" remote="LineageOS" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="LineageOS" />
 
   <!-- LineageOS additions -->
   <project path="external/exfat" name="android_external_exfat" remote="LineageOS" />
