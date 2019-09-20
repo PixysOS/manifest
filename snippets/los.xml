@@ -121,5 +121,7 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="LineageOS" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="LineageOS" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" remote="LineageOS" />
-
+  <project path="system/nfc" name="android_system_nfc" remote="LineageOS" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="LineageOS" />
+  <project path="external/libcups" name="android_external_libcups" remote="LineageOS" />
 </manifest>
