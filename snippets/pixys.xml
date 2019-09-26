@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixys"
+          fetch="https://github.com/PixysOS/"
+          revision="ten"
+          review="gerrit.pixysos.com" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="pixys-gitlab"
+          fetch="https://gitlab.com/PixysOS"
+          revision="ten" />
+
+  <project path="build/make" name="build" groups="pdk" remote="pixys" revision="ten">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="pixys" revision="ten">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="art" name="art" remote="pixys" revision="ten" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" revision="ten" />
+  <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" revision="ten" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="pixys-gitlab" revision="ten" />
+  <project path="vendor/pixys" name="vendor_pixys" remote="pixys" revision="ten" />
+
+  <!-- System Repos -->
+  <project path="bionic" name="bionic" remote="pixys" revision="ten" />
+  <project path="system/bt" name="system_bt" groups="pdk-fs" remote="pixys" revision="ten" />
+  <project path="system/core" name="system_core" remote="pixys" revision="ten" />
+  <project path="system/qcom" name="system_qcom" remote="pixys" revision="ten" />
+  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixys" revision="ten" />
+  <project path="system/update_engine" name="system_update_engine" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixys" revision="ten" />
+
+  <!-- Hardware Repos -->
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="pixys" revision="ten-msm8998" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="pixys" revision="ten-msm8998" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom,pdk" remote="pixys" revision="ten-msm8998" />
+
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixys" revision="ten" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="pixys" revision="ten" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="pixys" revision="ten" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="pixys" revision="ten" />
+  <project path="hardware/ril-caf" name="hardware_ril" groups="qcom" remote="pixys" revision="ten-caf" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="pixys" revision="ten-caf" />
+  <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/vr" name="hardware_qcom_vr" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="pixys" revision="ten" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="pixys" revision="ten-caf"/>
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="pixys" revision="ten" />
+
+  <!-- Packages Repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixys" revision="ten" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="pixys" revision="ten" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" revision="ten" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" revision="ten" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" revision="ten" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="pixys" revision="ten" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixys" revision="ten" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixys" revision="ten" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixys" revision="ten" />
+
+  <!-- External Repos -->
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pixys" revision="ten" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="pixys" revision="ten" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pixys" revision="ten" />
+  <project path="external/json-c" name="external_json-c" remote="pixys" revision="ten" />
+  <project path="external/selinux" name="external_selinux" remote="pixys" revision="ten" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="pixys" revision="ten" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="pixys" revision="ten" />
+
+  <!-- Prebuilt Repos -->
+  <project path="prebuilts/r8" name="prebuilts_r8" remote="pixys" revision="ten" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixys" revision="ten" clone-depth="1" />
+
+  <!-- Qcom Repos -->
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="pixys" revision="ten" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixys" revision="ten" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="pixys" revision="ten" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixys" revision="ten" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixys" revision="ten">
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixys" revision="ten" />
+
+</manifest>
