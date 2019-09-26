@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS/"
+          review="https://review.lineageos.org/"
+          revision="refs/heads/lineage-17.0" />
+
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="LineageOS" />
+  <project path="prebuilts/openssl" name="android_prebuilts_openssl" groups="pdk,tradefed" remote="LineageOS" />
+  <project path="prebuilts/tools-pixys" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="LineageOS" />
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="LineageOS" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="LineageOS" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="LineageOS" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="LineageOS" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" />
+
+</manifest>
