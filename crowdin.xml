@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="pixys" 
+          fetch="https://git@github.com/PixysOS" 
+          revision="ten" />
+  <default remote="pixys" 
+           sync-c="true" 
+           sync-j="4"  />
+  <project path="manifest" name="manifest" remote="pixys" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixys" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixys" />
+  <project path="packages/apps/PixysSettings" name="packages_apps_PixysSettings" remote="pixys" />
+</manifest>
