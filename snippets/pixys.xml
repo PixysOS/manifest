@@ -67,6 +67,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
