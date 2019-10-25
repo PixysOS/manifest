@@ -40,6 +40,7 @@
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixys-gitlab" />
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
+  <project path="vendor/PixysTheme" name="vendor_PixysTheme" remote="pixys" />
   <project path="packages/apps/PixysSettings" name="packages_apps_PixysSettings" remote="pixys" />
 
   <!-- System Repos -->
@@ -61,6 +62,7 @@
 
   <!-- Packages Repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixys" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="pixys" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="pixys" />
@@ -68,6 +70,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />

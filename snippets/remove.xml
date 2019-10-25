@@ -90,6 +90,7 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Car/externallibs" />
   <remove-project name="platform/packages/apps/DevCamera" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging" />
@@ -100,6 +101,7 @@
   <remove-project name="platform/packages/modules/TestModule" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
