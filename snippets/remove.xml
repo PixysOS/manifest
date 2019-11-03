@@ -51,6 +51,7 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/system/core" />

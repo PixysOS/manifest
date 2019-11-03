@@ -11,6 +11,9 @@
   <project path="prebuilts/tools-pixys" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
 
+  <!-- Build Stuff -->
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
+
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
