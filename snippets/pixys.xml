@@ -56,7 +56,6 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixys" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixys" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixys" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="pixys" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixys" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" remote="pixys" />
 
