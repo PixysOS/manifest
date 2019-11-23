@@ -82,7 +82,4 @@
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="pixys" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
 
-  <!-- Prebuilt Repos -->
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixys" clone-depth="1" />
-
 </manifest>
