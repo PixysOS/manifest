@@ -76,6 +76,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="pixys" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixys" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="pixys" />
 
   <!-- External Repos -->
   <project path="external/selinux" name="external_selinux" remote="pixys" />
