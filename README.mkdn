@@ -3,7 +3,7 @@
 <img src="https://github.com/PixysOS/manifest/blob/pie/raw/pixys.png" >
 </p>
 
-# PixysOS-Beta #
+# PixysOS #
 
 
 
