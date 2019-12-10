@@ -32,6 +32,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="pixys" />
 
   <!-- Device Repos -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
