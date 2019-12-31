@@ -36,6 +36,7 @@
 
   <!-- Device Repos -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
 
   <!-- Pixys Repos -->
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
