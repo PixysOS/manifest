@@ -39,6 +39,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
 
   <!-- Pixys Repos -->
+  <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixys-gitlab" />
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
