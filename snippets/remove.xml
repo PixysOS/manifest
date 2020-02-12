@@ -50,6 +50,7 @@
   <remove-project name="kernel/tests" />
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
@@ -88,6 +89,7 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Car/externallibs" />
+  <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Email" />
