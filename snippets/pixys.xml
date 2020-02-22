@@ -35,6 +35,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="pixys" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk,tradefed" remote="pixys" />
 
   <!-- Device Repos -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
