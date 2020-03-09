@@ -79,6 +79,9 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
 
+  <!-- Prebuilts Repos -->
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="pixys" />
+
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
   <project path="frameworks/native" name="frameworks_native" remote="pixys" />
