@@ -61,9 +61,6 @@
 
   <!-- Hardware Repos -->
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="pixys" revision="ten-msm8996" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="pixys" revision="ten-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="pixys" revision="ten-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" groups="qcom,pdk" remote="pixys" revision="ten-sm8150" />
 
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixys" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixys" />
