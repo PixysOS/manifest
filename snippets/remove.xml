@@ -55,6 +55,7 @@
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
@@ -94,6 +95,11 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/TestModule" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
@@ -106,6 +112,7 @@
 
   <!-- external repos -->
   <remove-project name="platform/external/ARMComputeLibrary" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/python/asn1crypto" />
@@ -123,12 +130,14 @@
 
   <!-- system repos -->
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/sepolicy" />
 
   <!-- prebuilt repos -->
   <remove-project name="platform/prebuilts/r8" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
