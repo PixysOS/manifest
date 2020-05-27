@@ -37,13 +37,13 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="pixys" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk,tradefed" remote="pixys" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
 
   <!-- Device Repos -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixys" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" revision="ten" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="pixys" revision="ten-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="pixys" revision="ten-legacy-um" />
 
   <!-- Pixys Repos -->
   <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
@@ -54,30 +54,24 @@
   <project path="packages/apps/PixysSettings" name="packages_apps_PixysSettings" remote="pixys" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="system_bt" groups="pdk-fs" remote="pixys" />
   <project path="system/core" name="system_core" remote="pixys" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixys" />
   <project path="system/vold" name="system_vold" remote="pixys" />
-
-  <!-- Hardware Repos -->
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="pixys" revision="ten-msm8996" />
-
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixys" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="pixys" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixys" />
-  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixys" />
-  <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" remote="pixys" />
+  <project path="system/netd" name="system_netd" remote="pixys" />
 
   <!-- Packages Repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixys" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="pixys" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="pixys" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixys" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixys" />  
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixys" />  
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixys" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
 
@@ -85,12 +79,12 @@
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
   <project path="frameworks/native" name="frameworks_native" remote="pixys" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixys" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="pixys" />
 
   <!-- External Repos -->
-  <project path="external/selinux" name="external_selinux" remote="pixys" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="pixys" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
+
+  <!-- Clang From AOSIP -->
+  <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1"  remote="github" revision="ten" />
 
 </manifest>
