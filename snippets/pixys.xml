@@ -54,12 +54,14 @@
   <project path="packages/apps/PixysSettings" name="packages_apps_PixysSettings" remote="pixys" />
 
   <!-- System Repos -->
+  <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" />
   <project path="system/core" name="system_core" remote="pixys" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixys" />
   <project path="system/vold" name="system_vold" remote="pixys" />
   <project path="system/netd" name="system_netd" remote="pixys" />
 
   <!-- Packages Repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" />
@@ -77,8 +79,9 @@
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixys" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixys" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="pixys" />
 
   <!-- External Repos -->
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="pixys" />
