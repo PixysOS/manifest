@@ -49,6 +49,10 @@ $ make pixys -jX (X = number of threads you want to use)
 # 
 ### Other Resources ###
 
-**Our** [Telegram chat](https://t.me/pixysos_chat)
-
-**Our** [Telegram channel](https://t.me/PixysOS)
+* [**Telegram Public Chat**](https://t.me/pixysos_chat)
+* [**Telegram Channel**](https://t.me/PixysOS)
+* [**Facebook Pgae**](https://www.facebook.com/PixysOS)
+* [** Twitter**](https://twitter.com/Pixys_OS)
+* [**Jenkins**](https://www.jenkins.pixysos.com)
+* [**Gerrit**](https://www.gerrit.pixysos.com)
+* [**Crowdin**](https://crowdin.com/project/pixysos)
