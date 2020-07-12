@@ -87,6 +87,7 @@
 
   <!-- External Repos -->
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="pixys" />
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="pixys" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
 
   <!-- Support -->
