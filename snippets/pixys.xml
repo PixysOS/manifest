@@ -9,6 +9,9 @@
   <remote name="pixys-devices"
           fetch="https://github.com/PixysOS-Devices/" />
 
+  <remote name="pixys-vendor"
+          fetch="https://gitlab.com/PixysOS-Devices/" />
+
   <remote name="github"
           fetch="https://github.com/" />
 
