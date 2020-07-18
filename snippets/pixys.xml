@@ -15,6 +15,9 @@
   <remote name="github"
           fetch="https://github.com/" />
 
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
   <remote name="pixys-gitlab"
           fetch="https://gitlab.com/PixysOS"
           revision="ten" />
