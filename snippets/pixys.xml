@@ -104,6 +104,8 @@
   <!-- Clang From AOSIP -->
   <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1"  remote="github" revision="ten" />
 
+  <!-- vendor opensource -->
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="pixys" />
-
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="pixys" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="pixys" />
 </manifest>
