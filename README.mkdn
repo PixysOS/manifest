@@ -51,7 +51,7 @@ $ make pixys -jX (X = number of threads you want to use)
 
 * [**Telegram Public Chat**](https://t.me/pixysos_chat)
 * [**Telegram Channel**](https://t.me/PixysOS)
-* [**Facebook Pgae**](https://www.facebook.com/PixysOS)
+* [**Facebook Page**](https://www.facebook.com/PixysOS)
 * [**Twitter**](https://twitter.com/Pixys_OS)
 * [**Jenkins**](https://jenkins.pixysos.com)
 * [**Gerrit**](https://gerrit.pixysos.com)
