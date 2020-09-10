@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c2f347d1_e6f72f50",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 791,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-09-10T11:09:24Z",
+      "side": 0,
+      "message": "oops",
+      "revId": "880b1305757f7ae4029a62bd57c60af927982d50",
+      "serverId": "dc9c43de-f401-424a-9bd3-945633c9f028",
+      "unresolved": true
+    }
+  ]
+}
