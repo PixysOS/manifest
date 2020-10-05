@@ -48,6 +48,9 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixys" />
 
+  <!-- Packages Repos -->
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
+
   <!-- Pixys Repos -->
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
   <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
