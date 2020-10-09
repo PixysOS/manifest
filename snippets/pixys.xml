@@ -56,6 +56,7 @@
   <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixys" />
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
 
   <!-- System Repos -->
