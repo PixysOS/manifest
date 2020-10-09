@@ -35,12 +35,14 @@
   <!-- CodeAurora additions -->
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="pixys" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="pixys" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pixys" />
 
   <!-- External Repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixys" />
   <project path="frameworks/native" name="frameworks_native" remote="pixys" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="pixys" />
 
@@ -48,11 +50,25 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixys" />
 
+  <!-- Packages Repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixys" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="pixys" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixys" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pixys" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="pixys" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixys" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
+
   <!-- Pixys Repos -->
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
   <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixys" />
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
 
   <!-- System Repos -->
