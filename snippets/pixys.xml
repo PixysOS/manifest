@@ -83,6 +83,12 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="pixys" />
   <project path="system/vold" name="system_vold" remote="pixys" />
 
+  <!-- vendor opensource -->
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="pixys" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="pixys" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" groups="qcom,pdk-qcom" remote="pixys" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" groups="qcom,pdk-qcom" remote="pixys" />
+
   <!-- Temp Hals from Pixys -->
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" revision="eleven-msm8998" remote="pixys" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" revision="eleven-msm8998" remote="pixys" />
