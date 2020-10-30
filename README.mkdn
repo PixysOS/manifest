@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://github.com/PixysOS/manifest/blob/pie/raw/pixys.png" >
+<img src="https://github.com/PixysOS/Pixys_doc/raw/eleven/eleven-stuff/pixys_banner.png" >
 </p>
 
 # PixysOS #
@@ -10,7 +10,7 @@
 
 ## **Getting Started** ##
 
-**To get started with manifest/PixysOS, you'll need to get familiar with** [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
+**To get started with manifest/PixysOS, you'll need to get familiar with** [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/setup/develop).
 
 **To initialize your local repository using the PixysOS trees, use a command like this** :
 
@@ -37,12 +37,12 @@ $ make pixys -jX (X = number of threads you want to use)
 # 
 ### XDA Template ###
 
-**For releasing it on xda , use** [this template](https://raw.githubusercontent.com/PixysOS/Pixys_doc/android-10/XDA_ThreadTemplate%20%5BAndroid%2010.x%20Ten%5D)
+**For releasing it on xda , use** [this template](https://github.com/PixysOS/Pixys_doc/raw/eleven/XDA_ThreadTemplate)
 # 
 ### Contributing The Rom or Submitting Patches ###
 
 **We always welcome contribution/patches to our rom! Feel free to submit a patch.** 
-**To do this you need follow**  [this](https://raw.githubusercontent.com/PixysOS/Pixys_doc/pie/gerrit_config.txt)
+**To do this you need follow**  [this](https://github.com/PixysOS/Pixys_doc/blob/eleven/gerrit-config.md)
 
 **To view the status of your or other patches , visit**  [PIXYS GERRIT CODE REVIEW](http://gerrit.pixysos.com)
 
