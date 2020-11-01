@@ -88,6 +88,11 @@
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
   <project path="vendor/PixysTheme" name="vendor_PixysTheme" remote="pixys" />
 
+  <!-- Prebuilts Repos -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pixys" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixys" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="pixys" />
+
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" />
   <project path="system/core" name="system_core" remote="pixys" />
