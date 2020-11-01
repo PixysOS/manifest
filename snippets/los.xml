@@ -42,7 +42,11 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lineage" revision="lineage-18.0-caf"/>
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
 
-  <!-- Prebuilt Stuff -->  
+  <!-- Prebuilt Stuff -->
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-pixys" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
 
   <!-- System -->

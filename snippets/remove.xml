@@ -100,6 +100,13 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/modules/TestModule" />
 
+  <!-- Prebuilts Repos -->
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
+
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
