@@ -75,6 +75,7 @@
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/development" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
