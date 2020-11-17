@@ -22,6 +22,7 @@
   <remote name="pixys-devices-gitlab"
           fetch="https://gitlab.com/PixysOS-Devices/" />
 
+  <project path="manifest" name="manifest" remote="pixys" />
   <project path="bionic" name="bionic" remote="pixys" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixys" />
 
