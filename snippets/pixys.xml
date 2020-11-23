@@ -80,6 +80,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
+  <project path="packages_modules_NetworkStack" name="packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
 
   <!-- Pixys Repos -->
   <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
