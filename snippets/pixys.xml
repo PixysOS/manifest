@@ -76,6 +76,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pixys" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixys" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="pixys" />
