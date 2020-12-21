@@ -90,6 +90,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixys" />
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
+  <project path="packages/apps/PixysSettings" name="packages_apps_PixysSettings" remote="pixys" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" />
   <project path="vendor/gapps" name="vendor_gapps_eleven" clone-depth="1" remote="pixys-gitlab" />
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
