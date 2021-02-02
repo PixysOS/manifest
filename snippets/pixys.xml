@@ -110,6 +110,9 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" revision="eleven-msm8998" remote="pixys" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" revision="eleven-msm8998" remote="pixys" />
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" revision="eleven-msm8998" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" revision="eleven-8996" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" revision="eleven-8996" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" revision="eleven-8996" remote="pixys" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" revision="eleven-caf-sm8150" remote="pixys" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="eleven-caf-sm8150" remote="pixys" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="eleven-caf-sm8150" remote="pixys" />
