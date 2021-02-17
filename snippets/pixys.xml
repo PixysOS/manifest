@@ -55,6 +55,7 @@
 
   <!-- External Repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
+  <project path="external/asus/stitchimage" name="Octavi-OS/platform_external_asus_stitchimage" remote="github" revision="11" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
