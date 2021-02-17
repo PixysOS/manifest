@@ -55,6 +55,7 @@
 
   <!-- External Repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixys" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
