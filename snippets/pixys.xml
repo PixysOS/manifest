@@ -16,6 +16,10 @@
           fetch="https://gitlab.com/PixysOS"
           revision="eleven" />
 
+  <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           revision="refs/heads/elle" />
+
   <remote name="pixys-devices"
           fetch="https://github.com/PixysOS-Devices/" />
 
@@ -55,6 +59,7 @@
 
   <!-- External Repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="evo" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
