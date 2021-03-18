@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4615607_3267cd79",
+        "filename": "snippets/los.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2021-03-18T09:11:01Z",
+      "side": 1,
+      "message": "planning  to add livedisplay soon ?",
+      "revId": "25f8f4b78c71ee34a6d7a2b94128c969964cbaf9",
+      "serverId": "dc9c43de-f401-424a-9bd3-945633c9f028"
+    }
+  ]
+}
