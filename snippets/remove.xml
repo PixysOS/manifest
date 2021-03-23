@@ -63,6 +63,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- General repos -->
   <remove-project name="platform/bionic" />
@@ -120,6 +121,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
