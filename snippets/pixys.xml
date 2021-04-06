@@ -54,6 +54,7 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" groups="qcom,pdk-qcom" remote="pixys" />
 
   <!-- External Repos -->
+  <project path="external/exfat" name="external_exfat" remote="pixys" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixys" />
 
