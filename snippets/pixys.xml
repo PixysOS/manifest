@@ -47,8 +47,10 @@
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixys" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixys" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="pixys" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixys" />
 
   <!-- External Repos -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixys-gitlab" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixys" />
 
@@ -59,6 +61,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="pixys" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixys" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixys" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="pixys" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
@@ -69,11 +72,13 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixys" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixys-gitlab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pixys" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixys" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixys" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="pixys" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixys" />
@@ -98,6 +103,7 @@
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" />
   <project path="system/core" name="system_core" remote="pixys" />
+  <project path="system/netd" name="system_netd" remote="pixys" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixys" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="pixys" />
   <project path="system/vold" name="system_vold" remote="pixys" />
