@@ -7,6 +7,7 @@
            sync-c="true"
            sync-j="4"  />
   <project path="manifest" name="manifest" remote="pixys" />
+  <project path="crowdin" name="crowdin" remote="pixys" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" />
