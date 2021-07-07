@@ -23,8 +23,10 @@
           fetch="https://gitlab.com/PixysOS-Devices/" />
 
   <project path="manifest" name="manifest" remote="pixys" />
+  <project path="art" name="art" remote="pixys" />
   <project path="bionic" name="bionic" remote="pixys" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixys" />
+  <project path="libcore" name="libcore" remote="pixys" />
 
   <!-- Build Repos -->
   <project path="build/make" name="build" groups="pdk" remote="pixys" >
