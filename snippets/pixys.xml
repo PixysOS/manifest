@@ -112,6 +112,9 @@
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="pixys" />
   <project path="system/vold" name="system_vold" remote="pixys" />
 
+  <!-- Tools -->
+  <project path="tools/metalava" name="tools_metalava" remote="pixys" />
+
   <!-- Temp Hals from Pixys -->
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" revision="eleven-msm8998" remote="pixys" />
 
