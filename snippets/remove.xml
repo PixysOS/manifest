@@ -53,8 +53,14 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/cpu_features" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
@@ -113,6 +119,8 @@
   <remove-project name="platform/packages/modules/TestModule" />
 
   <!-- Prebuilts Repos -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
