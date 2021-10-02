@@ -52,9 +52,12 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixys" />
 
   <!-- External Repos -->
+  <project path="external/cpu_features" name="external_cpu_features" remote="pixys" />
   <project path="external/exfat" name="external_exfat" remote="pixys" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixys-gitlab" />
+  <project path="external/sqlite" name="external_sqlite" remote="pixys" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="pixys" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixys" />
 
   <!-- Frameworks Repos -->
@@ -102,6 +105,8 @@
   <project path="vendor/PixysTheme" name="vendor_PixysTheme" remote="pixys" />
 
   <!-- Prebuilts Repos -->
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pixys" />
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="pixys" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="pixys" />
 
   <!-- System Repos -->
