@@ -15,7 +15,7 @@
 **To initialize your local repository using the PixysOS trees, use a command like this** :
 
 ```bash
-repo init -u https://github.com/PixysOS/manifest -b eleven
+repo init -u https://github.com/PixysOS/manifest -b twelve
 ```
 
 **Then to be sure to add device stuffs in local_manifest
