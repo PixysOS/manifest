@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03547fc2_b839ad6e",
+        "filename": "snippets/pixys.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2021-10-24T12:31:56Z",
+      "side": 1,
+      "message": "changed to packages_modules_Permission in S",
+      "revId": "a357edb44e599bd6e9911f34a6eb1ec6f76537e9",
+      "serverId": "dc9c43de-f401-424a-9bd3-945633c9f028"
+    }
+  ]
+}
