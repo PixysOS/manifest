@@ -96,7 +96,9 @@
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pixys" />
 
   <!-- QCOM -->
+  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" groups="qcom,pdk-qcom" remote="pixys" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="pixys" />  
+  <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="pixys" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixys" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="pixys" />
 
