@@ -73,9 +73,9 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom_wlan" remote="pixys" revision="twelve-caf" />
 
   <!-- MSM8998 HALS -->
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" revision="twelve-msm8996" remote="pixys" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" revision="twelve-msm8996" remote="pixys" />
-  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" revision="twelve-msm8996" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" revision="twelve" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" revision="twelve" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" revision="twelve" remote="pixys" />
 
   <!-- Packages Repos -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pixys" />
