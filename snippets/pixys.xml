@@ -72,10 +72,13 @@
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixys" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom_wlan" remote="pixys" revision="twelve-caf" />
 
-  <!-- MSM8998 HALS -->
+  <!-- Qcom Hals -->
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" revision="twelve" remote="pixys" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" revision="twelve" remote="pixys" />
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" revision="twelve" remote="pixys" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" revision="twelve" remote="pixys" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" revision="twelve" remote="pixys" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" revision="twelve" remote="pixys" />
 
   <!-- NQ-NFC Repos -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="pixys" />
