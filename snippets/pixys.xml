@@ -101,6 +101,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="pixys" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixys" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
 
   <!-- Pixys Repos -->
