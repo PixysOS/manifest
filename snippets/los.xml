@@ -42,7 +42,6 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8150" remote="lineage" />
 
   <!-- Display HALS -->
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8996" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8150" remote="lineage" />
 
   <!-- Media HALS -->
