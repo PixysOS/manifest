@@ -101,6 +101,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" /> 
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixys" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
 
   <!-- Pixys Repos -->
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixys" />
