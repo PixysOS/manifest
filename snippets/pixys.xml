@@ -107,6 +107,12 @@
   <project path="vendor/support" name="vendor_support" remote="pixys" />
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
   <project path="vendor/gms" name="vendor_gapps_twelve" clone-depth="1" remote="pixys-gitlab" />
+  <project path="vendor/qrcode/zxing" name="vendor_qrcode_zxing" remote="pixys">
+    <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
+    <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
+    <linkfile src="zxing-android-embedded/src/com/google/zxing/*" dest="vendor/support/src/com/google/zxing" />
+    <linkfile src="zxing-android-embedded/src/com/journeyapps/barcodescanner/*" dest="vendor/support/src/com/journeyapps/barcodescanner" />
+  </project>
 
   <!-- Prebuilts Repos -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pixys" />
