@@ -2,16 +2,12 @@
 <manifest>
   <remote name="pixys"
           fetch="https://git@github.com/PixysOS"
-          revision="eleven" />
+          revision="twelve" />
   <default remote="pixys"
            sync-c="true"
            sync-j="4"  />
   <project path="manifest" name="manifest" remote="pixys" />
-  <project path="crowdin" name="crowdin" remote="pixys" />
+  <project path="crowdin" name="crowdin" remote="pixys" revision="master" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="pixys" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="pixys" />
-  <project path="packages/apps/PixysSettings" name="packages_apps_PixysSettings" remote="pixys" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixys" />
 </manifest>
