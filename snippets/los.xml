@@ -6,12 +6,14 @@
           review="https://review.lineageos.org/"
           revision="refs/heads/lineage-18.1" />
 
+  <!-- ANT wireless -->
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" revision="lineage-19.0" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" revision="lineage-19.0" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" revision="lineage-19.0" remote="lineage" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-19.0" remote="lineage" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl"  revision="lineage-19.0" remote="lineage" />
+
   <!-- CodeAurora additions -->
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
-  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
@@ -26,7 +28,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk" remote="lineage" />
 
   <!-- External -->
-  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" revision="lineage-19.0" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf" />
@@ -36,8 +38,11 @@
 
   <!-- Prebuilt Stuff -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" revision="lineage-19.0" />
-  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
-  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" revision="lineage-19.0" remote="lineage" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" revision="lineage-19.0" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="lineage" revision="lineage-19.0" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="lineage" revision="lineage-19.0" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="lineage" revision="lineage-19.0" clone-depth="1" />
 
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8150" remote="lineage" />
 
