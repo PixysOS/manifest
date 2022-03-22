@@ -26,7 +26,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk" remote="lineage" />
 
   <!-- External -->
-  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" revision="lineage-19.0" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf" />
@@ -36,8 +36,8 @@
 
   <!-- Prebuilt Stuff -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" revision="lineage-19.0" />
-  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
-  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" revision="lineage-19.0" remote="lineage" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" revision="lineage-19.0" remote="lineage" clone-depth="1" />
 
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8150" remote="lineage" />
 
