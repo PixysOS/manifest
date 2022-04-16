@@ -104,6 +104,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixys" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixys" />
 
   <!-- Pixys Repos -->
   <project path="vendor/support" name="vendor_support" revision="thirteen" remote="pixys" />
