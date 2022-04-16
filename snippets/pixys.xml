@@ -105,6 +105,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="pixys" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixys" />
 
   <!-- Pixys Repos -->
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
