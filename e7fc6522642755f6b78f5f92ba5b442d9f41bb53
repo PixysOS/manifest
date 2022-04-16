@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "475d6b83_519d4c0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2022-04-16T12:05:17Z",
+      "side": 1,
+      "message": "can we do this and get rid of all the server fukcery with devicesettings",
+      "revId": "e7fc6522642755f6b78f5f92ba5b442d9f41bb53",
+      "serverId": "dc9c43de-f401-424a-9bd3-945633c9f028"
+    }
+  ]
+}
