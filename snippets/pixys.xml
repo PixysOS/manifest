@@ -56,7 +56,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
   <project path="external/tinyxml" name="external_tinyxml" remote="pixys" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="pixys" />
-  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="12" />
+  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="12.1" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" groups="proton" revision="sc" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" groups="proton" revision="sc" />
 
