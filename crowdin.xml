@@ -9,5 +9,6 @@
   <project path="manifest" name="manifest" remote="pixys" />
   <project path="crowdin" name="crowdin" remote="pixys" revision="master" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixys" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixys" />
 </manifest>
