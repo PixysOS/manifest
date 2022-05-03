@@ -143,6 +143,7 @@
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" />
   <project path="system/core" name="system_core" remote="pixys" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="pixys" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixys" />
   <project path="system/update_engine" name="system_update_engine" remote="pixys" />
   <project path="system/vold" name="system_vold" remote="pixys" />
