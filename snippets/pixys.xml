@@ -137,9 +137,6 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="pixys" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="pixys" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="pixys" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="pixys" />  
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixys" />
-  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="pixys" />
 
   <!-- Sepolicy Repos -->
   <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
