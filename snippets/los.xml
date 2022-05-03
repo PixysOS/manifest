@@ -4,14 +4,14 @@
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
           review="https://review.lineageos.org/"
-          revision="refs/heads/lineage-18.1" />
+          revision="refs/heads/lineage-19.1" />
 
   <!-- ANT wireless -->
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" revision="lineage-19.0" remote="lineage" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" revision="lineage-19.0" remote="lineage" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" revision="lineage-19.0" remote="lineage" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-19.0" remote="lineage" />
-  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl"  revision="lineage-19.0" remote="lineage" />
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
 
   <!-- CodeAurora additions -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
@@ -19,30 +19,30 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="lineage" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="lineage-18.1" />
   <project path="vendor/qcom/opensource/libfjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" revision="lineage-19.1" remote="lineage" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk" remote="lineage" />
 
   <!-- External -->
-  <project path="external/json-c" name="android_external_json-c" revision="lineage-19.0" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
 
   <!-- Hardware repos -->
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-19.1-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-18.1-caf" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
 
   <!-- Prebuilt Stuff -->
-  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" revision="lineage-19.0" />
-  <project path="tools/extract-utils" name="android_tools_extract-utils" revision="lineage-19.0" remote="lineage" />
-  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" revision="lineage-19.0" remote="lineage" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="lineage" revision="lineage-19.0" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="lineage" revision="lineage-19.0" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="lineage" revision="lineage-19.0" clone-depth="1" />
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="lineage" revision="lineage-19.1" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="lineage" revision="lineage-19.1" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="lineage" revision="lineage-19.1" clone-depth="1" />
 
   <!-- System repos -->
   <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
