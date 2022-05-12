@@ -52,6 +52,7 @@
   <!-- External Repos -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixys" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="pixys" />
+  <project path="external/erofs-utils" name="external_erofs-utils" remote="pixys" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixys-gitlab" />
   <project path="external/mksh" name="external_mksh" remote="pixys" />
