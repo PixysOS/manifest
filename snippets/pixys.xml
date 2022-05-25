@@ -63,6 +63,7 @@
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
+  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="pixys" />
   <project path="frameworks/native" name="frameworks_native" remote="pixys" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="pixys" />
 
@@ -100,6 +101,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixys" /> 
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="pixys" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixys" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
 
