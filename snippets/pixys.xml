@@ -52,6 +52,7 @@
   <!-- External Repos -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixys" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="pixys" />
+  <project path="external/expat" name="external_expat" remote="pixys" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="pixys" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixys-gitlab" />
@@ -106,6 +107,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixys" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixys" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
 
   <!-- Pixys Repos -->

@@ -70,6 +70,7 @@
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/gptfdisk" />
@@ -99,6 +100,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- Prebuilts Repos -->
