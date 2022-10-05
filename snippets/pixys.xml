@@ -54,6 +54,7 @@
   <project path="external/exfatprogs" name="external_exfatprogs" remote="pixys" />
   <project path="external/expat" name="external_expat" remote="pixys" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="pixys" />
+  <project path="external/dtc" name="external_dtc" remote="pixys" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixys-gitlab" />
   <project path="external/mksh" name="external_mksh" remote="pixys" />
@@ -156,6 +157,7 @@
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" />
+  <project path="system/nfc" name="system_nfc" groups="pdk" remote="pixys" />
   <project path="system/core" name="system_core" remote="pixys" />
   <project path="system/security" name="system_security" groups="pdk" remote="pixys" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixys" />
