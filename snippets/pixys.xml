@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixys"
+          fetch="https://github.com/PixysOS/"
+          revision="thirteen"
+          review="gerrit.pixysos.com" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <remote name="pixys-gitlab"
+          fetch="https://gitlab.com/PixysOS"
+          revision="thirteen" />
+
+  <remote name="pixys-devices"
+          fetch="https://github.com/PixysOS-Devices/" />
+
+  <remote name="pixys-devices-gitlab"
+          fetch="https://gitlab.com/PixysOS-Devices/" />
+
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP"
+          revision="sc-v2" />
+
+  <!-- General repos -->
+  <project path="manifest" name="manifest" remote="pixys" />
+  <project path="bionic" name="bionic" remote="pixys" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="pixys" />
+  <project path="development" name="development" remote="pixys" />
+  <project path="platform_testing" name="platform_testing" remote="pixys" />
+
+  <!-- Build Repos -->
+  <project path="build/make" name="build" groups="pdk" remote="pixys" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="pixys" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device Repos -->
+  <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixys" />
+
+  <!-- External Repos -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixys-gitlab" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixys" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
+  <project path="external/mksh" name="external_mksh" remote="pixys" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="pixys" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="pixys" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixys" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixys" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixys" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixys" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="pixys" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
+
+  <!-- Qcom Hals -->
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" revision="twelve" remote="pixys" /> 
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" revision="twelve" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" revision="twelve" remote="pixys" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixys" />
+
+  <!-- Packages Repos -->
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixys" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="pixys" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixys" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixys" />
+
+  <!-- Pixys Repos -->
+  <project path="vendor/support" name="vendor_support" revision="thirteen" remote="pixys" />
+  <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
+  <project path="vendor/gms" name="vendor_gapps_thirteen" remote="pixys-gitlab" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixys" />
+
+  <!-- ProtonAOSP -->
+  <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
+  <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
+  <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="proton" groups="proton" />
+
+  <!-- Prebuilt Repos -->
+  <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="pixys" />
+
+  <!-- QCOM -->
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" revision="thirteen" remote="pixys" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" revision="thirteen" remote="pixys" />
+
+  <!-- Sepolicy Repos -->
+  <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixys" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="pixys" />
+  <project path="system/extras" name="system_extras" remote="pixys" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="pixys" />
+  <project path="system/libziparchive" name="system_libziparchive" remote="pixys" />
+  <project path="system/libhidl" name="system_libhidl" remote="pixys" />
+  <project path="system/security" name="system_security" remote="pixys" />
+  <project path="system/update_engine" name="system_update_engine" remote="pixys" />
+  <project path="system/vold" name="system_vold" remote="pixys" />
+
+</manifest>
