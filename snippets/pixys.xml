@@ -78,6 +78,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixys" />
 
   <!-- Packages Repos -->
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pixys" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixys" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
