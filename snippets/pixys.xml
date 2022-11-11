@@ -111,13 +111,6 @@
   <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
   <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="proton" groups="proton" />
 
-  <!-- Prebuilt Repos -->
-  <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="pixys" />
-
-  <!-- QCOM -->
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" revision="thirteen" remote="pixys" />
-  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" revision="thirteen" remote="pixys" />
-
   <!-- Sepolicy Repos -->
   <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
