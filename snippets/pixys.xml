@@ -128,4 +128,12 @@
   <project path="system/update_engine" name="system_update_engine" remote="pixys" />
   <project path="system/vold" name="system_vold" remote="pixys" />
 
+  <!-- Custom Hals -->
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/audio" name="hardware_qcom_audio" revision="twelve-msm8996" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/display" name="hardware_qcom_display" revision="twelve-msm8996" remote="pixys" />
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/media" name="hardware_qcom_media" revision="twelve-msm8996" remote="pixys" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio" revision="thirteen" remote="pixys" />
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" groups="pdk,qcom,qcom_display" revision="thirteen" remote="pixys" />
+  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_sm8350_media" groups="qcom" revision="thirteen" remote="pixys" />
+
 </manifest>
