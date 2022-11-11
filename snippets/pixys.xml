@@ -50,6 +50,7 @@
   </project>
 
   <!-- Device Repos -->
+  <project path="device/qcom/common" name="device_qcom_common" remote="pixys"
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixys" />
 
   <!-- External Repos -->
