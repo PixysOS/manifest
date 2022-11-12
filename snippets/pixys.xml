@@ -28,6 +28,7 @@
 
   <!-- General repos -->
   <project path="manifest" name="manifest" remote="pixys" />
+  <project path="art" name="art" remote="pixys" />
   <project path="bionic" name="bionic" remote="pixys" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixys" />
   <project path="development" name="development" remote="pixys" />
@@ -69,6 +70,7 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="pixys" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
+  <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
 
   <!-- NQ-NFC Repos -->
   <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="pixys" />
@@ -97,6 +99,7 @@
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixys" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixys" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixys" />
 
