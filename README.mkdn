@@ -37,7 +37,7 @@ $ make pixys -jX (X = number of threads you want to use)
 # 
 ### XDA Template ###
 
-**For releasing it on xda , use** [this template](https://github.com/PixysOS/Pixys_doc/raw/twelve/XDA_ThreadTemplate)
+**For releasing it on xda , use** [this template](https://github.com/PixysOS/Pixys_doc/raw/thirteen/XDA_ThreadTemplate)
 # 
 ### Contributing The Rom or Submitting Patches ###
 
