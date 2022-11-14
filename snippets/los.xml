@@ -41,6 +41,7 @@
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-20.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage"/>
 
   <!-- Prebuilt Stuff -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" remote="lineage" />
