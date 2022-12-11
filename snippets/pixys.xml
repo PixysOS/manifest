@@ -113,6 +113,9 @@
   <project path="vendor/gms" name="vendor_gapps_thirteen" remote="pixys-gitlab" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixys" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r475365" name="prebuilts_clang_host_linux-x86_clang-r475365" remote="pixys-gitlab" clone-depth="1" />
+
   <!-- ProtonAOSP -->
   <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
   <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
