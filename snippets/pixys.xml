@@ -64,6 +64,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixys" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
   <project path="external/mksh" name="external_mksh" remote="pixys" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="pixys" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
