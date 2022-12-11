@@ -60,6 +60,7 @@
   <project path="external/aac" name="external_aac" remote="pixys" />
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixys-gitlab" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="pixys" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixys" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
