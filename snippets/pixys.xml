@@ -54,6 +54,7 @@
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixys" />
 
   <!-- External Repos -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="pixys" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="pixys" />
   <project path="external/rust/cxx" name="external_rust_cxx" remote="pixys" />
   <project path="external/aac" name="external_aac" remote="pixys" />
