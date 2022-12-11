@@ -62,6 +62,8 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="pixys-gitlab" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="pixys" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="pixys" />
+  <project path="external/libpng" name="external_libpng" remote="pixys" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixys" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
   <project path="external/mksh" name="external_mksh" remote="pixys" />
