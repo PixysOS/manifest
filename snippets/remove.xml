@@ -80,6 +80,7 @@
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/vulkan-headers" />
 
   <!-- General repos -->
   <remove-project name="platform/art" />
@@ -123,6 +124,7 @@
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/logging" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/vold" />
