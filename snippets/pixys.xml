@@ -123,7 +123,7 @@
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixys" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r475365" name="prebuilts_clang_host_linux-x86_clang-r475365" remote="pixys-gitlab" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="master" clone-depth="1" />
   <project path="prebuilts/rust" name="prebuilts_rust" remote="pixys-gitlab" />
 
   <!-- ProtonAOSP -->
