@@ -112,6 +112,7 @@
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixys" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixys" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixys" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixys" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixys" />
