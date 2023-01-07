@@ -106,6 +106,7 @@
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixys" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixys" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixys" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixys" />
