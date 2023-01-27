@@ -80,6 +80,9 @@
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/protobuf" />
+  <remove-project name="platform/external/libfuse" />
 
   <!-- General repos -->
   <remove-project name="platform/art" />
