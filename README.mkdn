@@ -22,7 +22,7 @@ repo init -u https://github.com/PixysOS/manifest -b thirteen
 and then sync up** :
 
 ```bash
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 ```
 # 
 
@@ -32,7 +32,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 $ . build/envsetup.sh
 $ lunch pixys_$device-userdebug
-$ make pixys -jX (X = number of threads you want to use)
+$ make pixys (for otapackage) or make pixys-fastboot (for fastboot package)
 ```
 # 
 ### XDA Template ###
@@ -42,17 +42,19 @@ $ make pixys -jX (X = number of threads you want to use)
 ### Contributing The Rom or Submitting Patches ###
 
 **We always welcome contribution/patches to our rom! Feel free to submit a patch.** 
-**To do this you need follow**  [this](https://github.com/PixysOS/Pixys_doc/blob/eleven/gerrit-config.md)
 
-**To view the status of your or other patches , visit**  [PIXYS GERRIT CODE REVIEW](http://gerrit.pixysos.com)
+**To learn how to do it check this **  [guide](https://github.com/PixysOS/Pixys_doc/blob/thirteen/gerrit-config.md)
+
+**To view the status of your or other patches , visit** [our code review](http://gerrit.pixysos.com)
 
 # 
-### Other Resources ###
+### Contact Us ###
 
-* [**Telegram Public Chat**](https://t.me/pixysos_chat)
+* [**Telegram Chat**](https://t.me/pixysos_chat)
 * [**Telegram Channel**](https://t.me/PixysOS)
 * [**Facebook Page**](https://www.facebook.com/PixysOS)
 * [**Twitter**](https://twitter.com/Pixys_OS)
-* [**Jenkins**](https://jenkins.pixysos.com)
+* [**Jenkins**](https://control.pixysos.com/ci)
 * [**Gerrit**](https://gerrit.pixysos.com)
 * [**Crowdin**](https://crowdin.com/project/pixysos)
+* [**Website**](https://pixysos.com)
