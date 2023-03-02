@@ -16,6 +16,24 @@
       "message": "will switch to git org readme",
       "revId": "2742461bdd59c9dca524df30663b999680b373af",
       "serverId": "dc9c43de-f401-424a-9bd3-945633c9f028"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8f038b4_85dd40e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2023-03-02T15:13:29Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "030f9cc4_e5039afd",
+      "revId": "2742461bdd59c9dca524df30663b999680b373af",
+      "serverId": "dc9c43de-f401-424a-9bd3-945633c9f028"
     }
   ]
 }
