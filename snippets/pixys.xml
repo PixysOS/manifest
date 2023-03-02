@@ -104,9 +104,6 @@
   <project path="vendor/nxp/secure_element_extns" name="vendor_nxp_secure_element_extns" remote="pixys" />
 
   <!-- Qcom Hals -->
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" revision="twelve" remote="pixys" /> 
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" revision="twelve" remote="pixys" />
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" revision="twelve" remote="pixys" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixys" />
 
   <!-- Packages Repos -->
