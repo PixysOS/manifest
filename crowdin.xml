@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="pixys"
+          fetch="https://git@github.com/PixysOS"
+          revision="thirteen" />
+  <default remote="pixys"
+           sync-c="true"
+           sync-j="4"  />
+  <project path="manifest" name="manifest" remote="pixys" />
+  <project path="crowdin" name="crowdin" remote="pixys" revision="master" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixys" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixys" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pixys" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixys" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixys" />
+</manifest>
