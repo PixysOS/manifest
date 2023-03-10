@@ -104,7 +104,7 @@
   <project path="vendor/nxp/secure_element_extns" name="vendor_nxp_secure_element_extns" remote="pixys" />
 
   <!-- Qcom Hals -->
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixys" />
+  <project path="hardware/qcom-caf/wlan" name="PixelExperience/hardware_qcom-caf_wlan" remote="github" revision="thirteen" />
 
   <!-- Packages Repos -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pixys" />
