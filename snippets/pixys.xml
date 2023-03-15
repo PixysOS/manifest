@@ -3,7 +3,7 @@
 
   <remote name="pixys"
           fetch="https://github.com/PixysOS/"
-          revision="thirteen"
+          revision="thirteen-v1"
           review="gerrit.pixysos.com" />
 
   <remote name="github"
@@ -14,7 +14,7 @@
 
   <remote name="pixys-gitlab"
           fetch="https://gitlab.com/PixysOS"
-          revision="thirteen" />
+          revision="thirteen-v1" />
 
   <remote name="pixys-devices"
           fetch="https://github.com/PixysOS-Devices/" />
