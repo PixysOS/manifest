@@ -83,6 +83,7 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/protobuf" />
   <remove-project name="platform/external/libfuse" />
+  <remove-project name="platform/external/elfutils" />
 
   <!-- General repos -->
   <remove-project name="platform/art" />

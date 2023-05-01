@@ -68,6 +68,7 @@
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
   <project path="external/mksh" name="external_mksh" remote="pixys" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="pixys" />
+  <project path="external/elfutils" name="external_elfutils" remote="pixys" />
   <project path="external/libfuse" name="external_libfuse" remote="pixys" />
   <project path="external/protobuf" name="external_protobuf" remote="pixys" />
   <project path="external/sqlite" name="external_sqlite" remote="pixys" />
