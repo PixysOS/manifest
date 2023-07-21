@@ -173,5 +173,6 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio" revision="thirteen" remote="pixys" />
   <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" groups="pdk,qcom,qcom_display" revision="thirteen" remote="pixys" />
   <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_sm8350_media" groups="qcom" revision="thirteen" remote="pixys" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" groups="qcom,kona_audio" revision="thirteen" remote="pixys" />
 
 </manifest>
