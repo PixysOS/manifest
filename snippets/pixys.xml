@@ -87,6 +87,7 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="pixys" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="pixys" />
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
 
   <!-- CodeAurora additions -->
@@ -151,6 +152,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixys" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="pixys" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixys" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixys" />
