@@ -87,6 +87,7 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="pixys" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="pixys" />
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
 
   <!-- CodeAurora additions -->
@@ -120,6 +121,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixys" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixys" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixys" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixys" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixys" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixys" />
@@ -151,6 +153,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixys" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="pixys" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixys" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixys" />
