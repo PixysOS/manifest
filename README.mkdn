@@ -1,0 +1,40 @@
+
+<p align="center">
+<img src="https://github.com/PixysOS/Pixys_doc/raw/twelve/twelve-stuff/pixys_banner.png" >
+</p>
+
+# PixysOS #
+
+
+
+
+## **Getting Started** ##
+
+**To get started with manifest/PixysOS, you'll need to get familiar with** [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/setup/develop).
+
+**To initialize your local repository using the PixysOS trees, use a command like this** :
+
+```bash
+repo init -u https://github.com/PixysOS/manifest -b fourteen
+```
+
+**Then to be sure to add device stuffs in local_manifest
+and then sync up** :
+
+```bash
+repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
+```
+# 
+
+## Its Time For Compile
+
+```bash
+
+$ . build/envsetup.sh
+$ lunch pixys_$device-userdebug
+$ make pixys (for otapackage) or make pixys-fastboot (for fastboot package)
+```
+#
+### Ready to Release ? ###
+
+**For releasing it on xda , use** [this template](https://github.com/PixysOS/Pixys_doc/raw/fourteen/XDA_ThreadTemplate)
