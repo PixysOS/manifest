@@ -31,6 +31,7 @@
 
   <!-- External -->
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
+  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage"/>

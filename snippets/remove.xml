@@ -85,6 +85,7 @@
   <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/libcxx" />
 
   <!-- General repos -->
   <remove-project name="platform/bionic" />
