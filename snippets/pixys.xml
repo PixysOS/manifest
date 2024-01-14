@@ -26,6 +26,7 @@
           revision="sc-v2" />
 
   <!-- General repos -->
+  <project path="art" name="art" remote="pixys" />
   <project path="manifest" name="manifest" remote="pixys" />
   <project path="bionic" name="bionic" remote="pixys" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixys" />
