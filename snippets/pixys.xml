@@ -90,6 +90,7 @@
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="pixys" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixys" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixys" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixys" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pixys" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
