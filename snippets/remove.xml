@@ -108,6 +108,8 @@
   <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
   <!-- Packages Repos -->
   <remove-project name="platform/packages/apps/Settings" />

@@ -67,6 +67,8 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="pixys" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="pixys" />
   <project path="hardware/mediatek" name="hardware_mediatek" remote="pixys" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="pixys" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="pixys" />
   <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="hardware_qcom_sm8150_data_ipacfg-mgr" remote="pixys">
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
