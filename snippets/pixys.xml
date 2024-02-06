@@ -133,6 +133,7 @@
   <project path="system/netd" name="system_netd" remote="pixys" />
   <project path="system/libhidl" name="system_libhidl" remote="pixys" />
   <project path="system/update_engine" name="system_update_engine" remote="pixys" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="pixys" />
 
   <!-- Custom Hals -->
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="pixys" >
