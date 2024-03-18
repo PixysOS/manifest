@@ -56,6 +56,7 @@
   <project path="external/libnl" name="external_libnl" remote="pixys" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
   <project path="external/mksh" name="external_mksh" remote="pixys" />
+  <project path="external/cronet" name="android_external_cronet" groups="pdk" remote="lineage" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
