@@ -89,4 +89,7 @@
   <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8550" remote="lineage" />
   <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" remote="lineage" />
 
+ <!-- hardware google -->
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="lineage"/>
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage"/>  
 </manifest>
